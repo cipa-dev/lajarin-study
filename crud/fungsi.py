@@ -41,6 +41,23 @@ def create_data():
         alat.writerows(data)
     print("data berhasil ditambahkan")
 
+# data.csv
+# id=1nama=zidan,kelasA
+# id=2nama=syifa,kelasA
+# id=3nama=alia,kelasA
+# id=4nama=sigma,kelasd
+
+# simpan (read)
+# id=1nama=zidan,kelasA
+# id=2nama=syifa,kelasA
+# id=3nama=alia,kelasA
+# id=4nama=sigma,kelasd
+
+
+# user input data baru
+
+data = [1,2,3,4,5]
+
 def delete_data():
     read_data()
     id = input("Masukkan ID yang ingin dihapus: ")
@@ -58,6 +75,22 @@ def delete_data():
             alat.writeheader()
             alat.writerows(data)
     print("data berhasil dihapus") 
+
+
+# data.csv
+# id=1nama=zidan,kelasA
+# id=3nama=alia,kelasA
+
+# simpan (read)
+# id=1nama=zidan,kelasA
+# id=2nama=syifa,kelasA
+# id=3nama=alia,kelasA
+
+# list baru
+# id=1nama=zidan,kelasA
+# id=3nama=alia,kelasA
+
+
 
 
 
